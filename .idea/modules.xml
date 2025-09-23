@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GeofencingApp/GeofencingApp.iml" filepath="$PROJECT_DIR$/GeofencingApp/GeofencingApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/InfernoTech.iml" filepath="$PROJECT_DIR$/.idea/InfernoTech.iml" />
     </modules>
   </component>
