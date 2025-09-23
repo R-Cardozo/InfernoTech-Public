@@ -8,7 +8,7 @@
     - [ ] Deactivate Geofence Upon Pop-Up/Detected Geofence
   - [ ] Rename Geofences - In App
   - [ ] Customize Geofence Notifications - In App
-- [ ] 
+  - [ ] Open Geofencing/NFC App Automatically Upon Scanning
 - [ ] 
 - [ ] 
 - [ ] 
