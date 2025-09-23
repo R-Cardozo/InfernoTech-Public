@@ -1,11 +1,13 @@
-- [ ] Create NFC App
-  - [ ] Add ability to add, remove, and activate/deactivate geofences
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] NFC App
+  - [ ] Activate Geofences
+  - [ ] Deactivate Geofences
+  - [ ] Add Geofences
+  - [ ] Remove Geofences
+  - [ ] Detect Active Geofences
+    - [ ] Pop-Up Notification When Detected
+    - [ ] Deactivate Geofence Upon Pop-Up/Detected Geofence
+  - [ ] Rename Geofences - In App
+  - [ ] Customize Geofence Notifications - In App
 - [ ] 
 - [ ] 
 - [ ] 
