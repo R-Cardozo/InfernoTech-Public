@@ -8,5 +8,5 @@ public class Main{
 }
 
 class Formatting{
-    
+    static String red_dark = "#a02d2d";
 }
