@@ -1,13 +1,63 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>InfernoTech</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfernoTech</title>
+  <script type="module" src="/src/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>InfernoTech</h1>
+    <p class="muted">Information on InfernoTech</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="form-title">
+      <h2 id="form-title">Subscribe to InfernoTech Updates</h2>
+      <form id="contact-form">
+        <fieldset>
+          <legend>Basic Info</legend>
+          <label>
+            Full Name
+            <input type="text" name="fullName" placeholder="First & Last Name">
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="name@example.com">
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>How Involved Do You Wish To Be?</legend>
+          <div class="group">
+            <label><input type="radio" name="plan" value="minimum" checked> Not too involved</label>
+            <label><input type="radio" name="plan" value="medium"> Somewhat involved</label>
+            <label><input type="radio" name="plan" value="maximum"> Very involved</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Type of Updates</legend>
+          <label>
+            Please update me on:
+            <textarea name="bio" rows="3" placeholder="What kind of things do you wish to be updated on?"></textarea>
+          </label>
+        </fieldset>
+
+        <div class="actions">
+          <button type="submit">Subscribe</button>
+          <button type="reset" id="reset-btn">Cancel</button>
+        </div>
+      </form>
+
+      <div id="result" class="output" aria-live="polite">Please click 'submit' to subscribe to InfernoTech updates</div>
+    </section>
+  </main>
+</body>
+
 </html>
